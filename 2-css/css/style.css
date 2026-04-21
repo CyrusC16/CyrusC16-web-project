@@ -1,0 +1,57 @@
+/* Background */
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Headers */
+h1 {
+    color: darkblue;
+    font-size: 36px;
+}
+
+h2 {
+    color: darkgreen;
+    font-size: 28px;
+}
+
+h3 {
+    color: purple;
+    font-size: 22px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* List styling */
+ul {
+    margin: 15px;
+    padding: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Image styling */
+img {
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/* Link styling */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
