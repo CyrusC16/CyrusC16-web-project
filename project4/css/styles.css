@@ -1,0 +1,98 @@
+/* Page background */
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar */
+.navbar {
+    display: flex;
+    list-style: none;
+    background-color: #333;
+    padding: 10px;
+    margin: 0;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #00bfff;
+}
+
+/* Headers */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+h2 {
+    color: #2980b9;
+}
+
+h3 {
+    color: #16a085;
+}
+
+/* Paragraph styling */
+p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Sections */
+section {
+    margin: 20px;
+    padding: 15px;
+}
+
+/* Image */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Attribution text */
+.attribution {
+    font-size: 12px;
+    color: gray;
+}
+
+/* Form styling */
+form {
+    margin-top: 10px;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1c5980;
+}
+
+/* Greeting message */
+#greetingMessage {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #27ae60;
+}

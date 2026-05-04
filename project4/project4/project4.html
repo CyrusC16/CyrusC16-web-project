@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 4 - Travel Highlights</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav>
+    <ul class="navbar">
+        <li><a href="file:///C:/Users/cyrus/project4/index.html">Home</a></li>
+        <li><a href="file:///C:/Users/cyrus/project4/project4/project4.html">Project 4</a></li>
+    </ul>
+</nav>
+
+<header>
+    <h1>Travel Highlights</h1>
+</header>
+
+<section>
+    <h2>My Favorite Experiences</h2>
+    <p>Each trip has given me unforgettable memories, from exploring cities to enjoying nature.</p>
+</section>
+
+<section>
+    <h2>Top Activities</h2>
+    <ol>
+        <li>Hiking scenic trails</li>
+        <li>Trying local foods</li>
+        <li>Visiting historical landmarks</li>
+    </ol>
+</section>
+
+<section>
+    <h3>Spotlight Destination: Iceland</h3>
+    <p>Iceland is known for its dramatic landscapes, waterfalls, and northern lights.</p>
+</section>
+
+<!-- Image -->
+<section>
+    <h2>Iceland Waterfall</h2>
+    <img src="images/waterfall.jpg" alt="Waterfall in Iceland surrounded by green landscape">
+    <p class="attribution">Image source: Unsplash (Free to use)</p>
+</section>
+
+<!-- External Link -->
+<section>
+    <h2>Explore More</h2>
+    <p>
+        Check out 
+        <a href="https://visiticeland.com" target="_blank">
+            Visit Iceland Official Guide
+        </a> 
+        to plan your trip.
+    </p>
+</section>
+
+<!-- Dynamic Content -->
+<section>
+    <h2>Share Your Favorite Destination</h2>
+
+    <form id="destinationForm">
+        <label for="destination">Enter your favorite place:</label><br>
+        <input type="text" id="destination" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="destinationMessage"></div>
+</section>
+
+<script>
+document.getElementById("destinationForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    let destination = document.getElementById("destination").value;
+
+    let message = "That sounds amazing! I'd love to visit " + destination + " someday! ✈️";
+
+    document.getElementById("destinationMessage").textContent = message;
+});
+</script>
+
+</body>
+</html>
